@@ -1,0 +1,53 @@
+.Header {
+    // position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 9;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.45);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-bottom: 150px;
+
+    &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        // padding: 35px 0 !important;
+    }
+
+    &-links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .btnDefault {
+            margin-left: 20px;
+        }
+        
+        &-link {
+            color: #242323;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 0.22px;
+            padding: 55px 45px;
+            transition: all ease 0.4s;
+
+            &:hover {
+                background-image: url("../../assets/images/mainTitleIcon.png");
+                background-repeat: no-repeat;
+                background-size: floor($number: 120px);
+                background-position: right center;
+                background-clip: padding-box;
+                position: relative;
+                left: 0;
+            }
+        }
+    }
+
+    .logo {
+        width: 280px;
+        height: 75px;
+    }
+}

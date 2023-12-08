@@ -1,0 +1,103 @@
+.Home {
+    .heroSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 60px;
+        background: #F4F6F5;
+        padding: 80px;
+
+        img {
+            width: 850px;
+        }
+
+        &-title {
+            color: #000;
+            font-size: 96px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 120px;
+
+            .bg-white {
+                z-index: 2;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    width: 465px;
+                    height: 115px;
+                    position: absolute;
+                    transform: rotate(-2deg);
+                    flex-shrink: 0;
+                    background-color: #FFF;
+                    z-index: -1;
+                    left: -40px;
+                    bottom: 0;
+                    top: 0;
+                    margin: auto;
+                }
+            }
+
+            .bg-yellow {
+                z-index: 2;
+                position: relative;
+
+                &::before {
+                    content: "";
+                    width: 495px;
+                    height: 120px;
+                    position: absolute;
+                    transform: rotate(-2deg);
+                    flex-shrink: 0;
+                    background-color: #EBD96B;
+                    z-index: -1;
+                    left: -330px;
+                    bottom: -125px;
+                    top: 0;
+                    margin: auto;
+                }
+            }
+        }
+
+        &-text {
+            color: #191818;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: -1.6px;
+            margin: 40px 0 30px 0;
+        }
+
+        &-btnSection {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+
+            .btnDefault {
+                font-size: 25px;
+            }
+
+            svg {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .partners {
+        background: #EBD96B;
+        margin: 70px 0;
+        padding: 70px 0;
+
+        &-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-img {
+            width: 150px;
+            height: 70px;
+        }
+    }
+}

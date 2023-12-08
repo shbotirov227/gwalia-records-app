@@ -1,0 +1,46 @@
+.ItemsCard {
+    width: 100%;
+    transition: all ease 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        .ItemsCard-explore svg {
+            transform: rotate( -.5turn);
+        }
+    }
+
+    &-img {
+        width: 485px;
+        height: 700px;
+        border-radius: 20px;
+    }
+
+    &-explore {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        svg {
+            transition: all ease 0.4s;
+        }
+    }
+
+    &-title {
+        color: #191919;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -1.28px;
+        margin: 30px 0 20px 0;
+    }
+
+    &-btn {
+        color: #7F7F7F;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 50px;
+        letter-spacing: -0.96px;
+    }
+}

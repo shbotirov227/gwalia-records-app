@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.btnDefault {
+    color: #FEFEFE;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    border-radius: 7px;
+    background: #000;
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+
+    &:hover {
+        background: #484848;
+    }
+}
