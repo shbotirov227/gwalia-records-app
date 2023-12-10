@@ -1,9 +1,13 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
-import Header from "../../containers/Header/Header";
-import Items from "../../containers/Items/Items";
-import Sales from "../../containers/Sales/Sales";
-import MainTitle from "../../components/MainTitle/MainTitle";
+import Header from "../../containers/Header";
+import Footer from "../../containers/Footer";
+import Items from "../../containers/Items";
+import Sales from "../../containers/Sales";
+import TopRated from "../../containers/TopRated";
+import MobileApp from "../../containers/MobileApp";
+import ContactSection from "../../containers/ContactSection";
+import MainTitle from "../../components/MainTitle";
 
 import { HeroIcon } from "../../assets/icons";
 import HeroImg from "../../assets/images/heroImg.png";
@@ -19,7 +23,6 @@ import JBL from "../../assets/images/jbl.svg";
 import 'swiper/css';
 
 import "./Home.scss";
-import TopRated from "../../containers/TopRated/TopRated";
 
 
 const data = [
@@ -76,7 +79,9 @@ const Home = () => {
 
 			<MainTitle title="Young’s Favourite" />
 			<TopRated />
-
+			<MobileApp />
+			<ContactSection />
+			<Footer />
 		</div>
 	)
 }

@@ -1,11 +1,15 @@
 import React from 'react';
+import Header from "../../containers/Header";
+import Footer from "../../containers/Footer";
 
 import "./Alboms.scss";
 
 const Alboms = () => {
 	return (
 		<div className="Alboms">
-			<h2>Alboms</h2>
+			<Header />
+			<h2 className="Alboms-title">Alboms Page</h2>
+			<Footer />
 		</div>
 	)
 }

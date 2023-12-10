@@ -1,0 +1,57 @@
+.ContactSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 155px 0;
+    background: #E5C643;
+
+    &-title {
+        width: 70%;
+        color: #FFF;
+        text-align: center;
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 70px;
+        letter-spacing: 1.65px;
+        margin-bottom: 40px;
+    }
+
+    &-text {
+        color: #FFFCF8;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0.96px;
+        margin-bottom: 50px;
+    }
+
+    &-input {
+        width: 78%;
+        color: #767676;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 35px;
+        letter-spacing: 0.72px;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    &-contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 10px;
+        background: #FFF;
+    }
+
+    .btnDefault {
+        margin: 10px;
+    }
+}

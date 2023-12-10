@@ -1,6 +1,6 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import ItemsCard from "../../components/ItemsCard/ItemsCard";
+import ItemsCard from "../../components/ItemsCard";
 
 import BobDylan from "../../assets/images/bobDylan.png";
 import DjMusic from "../../assets/images/djMusic.png";

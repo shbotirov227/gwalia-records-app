@@ -33,6 +33,7 @@
             letter-spacing: 0.22px;
             padding: 55px 45px;
             transition: all ease 0.4s;
+            background-image: none;
 
             &:hover {
                 background-image: url("../../assets/images/mainTitleIcon.png");
@@ -41,7 +42,7 @@
                 background-position: right center;
                 background-clip: padding-box;
                 position: relative;
-                left: 0;
+                // left: 0;
             }
         }
     }

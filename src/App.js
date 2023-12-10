@@ -1,11 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/Home/Home";
-import Signup from "./pages/Signup/Signup";
-import Login from "./pages/Login/Login";
-import News from "./pages/News/News";
-import Favourite from "./pages/Favourite/Favourite";
-import Singers from "./pages/Singers/Singers";
-import Alboms from "./pages/Alboms/Alboms";
+import {
+    Home,
+    Signup,
+    Login,
+    News,
+    Favourite,
+    Singers,
+    Alboms
+} from "./pages";
 
 import "./assets/App.scss";
 

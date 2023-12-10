@@ -1,0 +1,82 @@
+.Footer {
+    background: #000;
+    padding: 120px 0 50px 0;
+
+    &-inner {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    &-logo {
+        width: 190px;
+        height: 50px;
+    }
+
+    &-left {
+        width: 30%;
+        &-text {
+            color: #8E8E8E;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0.48px;
+            margin: 35px 0;
+        }
+        
+        &-icon {
+            width: 25px;
+            height: 25px;
+            padding: 25px 20px 15px 20px;
+            margin: 15px;
+            background-color: #EBD96B;
+            border-radius: 10px;
+            
+            img {
+                width: 23px;
+                height: 25px;
+            }
+            
+        }
+    }
+
+    &-right {
+        display: flex;
+        justify-content: space-between;
+        width: 45%;
+
+        ul {
+            width: 40%;
+        }
+
+        &-linkTitle {
+            color: #D9D9D9;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0.48px;
+        }
+
+        &-link {
+            color: #8E8E8E;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0.48px;
+            transition: all ease 0.4s;
+
+            &:hover {
+                color: #D9D9D9;
+            }
+        }
+    }
+
+    &-copyright {
+        margin-top: 150px;
+        text-align: center;
+        color: #D9D9D9;
+    }
+}

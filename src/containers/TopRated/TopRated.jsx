@@ -1,5 +1,5 @@
 import React from 'react'
-import ItemsCard from "../../components/ItemsCard/ItemsCard";
+import ItemsCard from "../../components/ItemsCard";
 import Konsta from "../../assets/images/konsta.png";
 import Shokir from "../../assets/images/shokir.png";
 import GioPika from "../../assets/images/gioPika.png";
@@ -44,8 +44,8 @@ const TopRated = () => {
 			<Swiper className="container" spaceBetween={50} slidesPerView={2.6}>
 				{
 					data.map((item, i) => (
-						<SwiperSlide>
-							<ItemsCard key={i} image={item.image} title={item.title} />
+						<SwiperSlide key={i}>
+							<ItemsCard key={item.id} image={item.image} title={item.title} />
 						</SwiperSlide>
 
 					))

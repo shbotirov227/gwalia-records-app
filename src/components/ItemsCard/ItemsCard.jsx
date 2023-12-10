@@ -1,7 +1,7 @@
 import React from 'react';
+import { ArrowIcon } from "../../assets/icons";
 
 import './ItemsCard.scss';
-import { ArrowIcon } from "../../assets/icons";
 
 const ItemsCard = ({ image, title }) => {
 	return (
