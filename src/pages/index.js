@@ -4,7 +4,7 @@ import Login from "./Login";
 import News from "./News";
 import Favourite from "./Favourite";
 import Singers from "./Singers";
-import Alboms from "./Alboms";
+import Albums from "./Albums";
 
 export {
     Home,
@@ -13,5 +13,5 @@ export {
     News,
     Favourite,
     Singers,
-    Alboms
+    Albums
 }

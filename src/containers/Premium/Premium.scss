@@ -1,0 +1,39 @@
+.Premium {
+    background-color: black;
+
+    &-inner {
+        margin-top: 100px;
+        padding: 100px 0;
+    }
+
+    &-title {
+        text-align: center;
+        font-size: 40px;
+        letter-spacing: -1.6px;
+    
+        color: rgb(227, 227, 227);
+        font-size: 32px;
+        font-weight: bold;
+        letter-spacing: -1.28px;
+        line-height: 1;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    &-text {
+        color: rgb(227, 227, 227);
+        font-size: 16px;
+        font-weight: normal;
+        margin: 20px 0px 45px;
+        text-align: center;
+        padding: 0px;
+    }
+
+    &-cards {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

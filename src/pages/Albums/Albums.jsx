@@ -2,16 +2,16 @@ import React from 'react';
 import Header from "../../containers/Header";
 import Footer from "../../containers/Footer";
 
-import "./Alboms.scss";
+import "./Albums.scss";
 
-const Alboms = () => {
+const Albums = () => {
 	return (
-		<div className="Alboms">
+		<div className="Albums">
 			<Header />
-			<h2 className="Alboms-title">Alboms Page</h2>
+			<h2 className="Albums-title">Albums Page</h2>
 			<Footer />
 		</div>
 	)
 }
 
-export default Alboms;
+export default Albums;

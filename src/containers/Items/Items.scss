@@ -1,4 +1,10 @@
 .Items {
     margin-bottom: 200px;
     padding: 30px 0;
+
+    .swiper {
+        &-wrapper {
+            padding: 40px 0;
+        }
+    }
 }

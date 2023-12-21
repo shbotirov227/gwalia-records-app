@@ -10,7 +10,7 @@ import ContactSection from "../../containers/ContactSection";
 import MainTitle from "../../components/MainTitle";
 
 import { HeroIcon } from "../../assets/icons";
-import HeroImg from "../../assets/images/heroImg.png";
+import HeroImg from "../../assets/images/freePhoto.png";
 import Yamaha from "../../assets/images/yamaha.svg";
 import DW from "../../assets/images/dw.svg";
 import Gibson from "../../assets/images/gibson.svg";
@@ -23,6 +23,8 @@ import JBL from "../../assets/images/jbl.svg";
 import 'swiper/css';
 
 import "./Home.scss";
+import Premium from "../../containers/Premium/Premium";
+import Concert from "../../containers/Concert/Concert";
 
 
 const data = [
@@ -37,6 +39,7 @@ const data = [
 ]
 
 const Home = () => {
+
 	return (
 		<div className="Home">
 			<Header />
@@ -52,7 +55,7 @@ const Home = () => {
 					</div>
 				</div>
 
-				<img src={HeroImg} alt="" />
+				<img src={HeroImg} alt="heroImg" />
 			</div>
 
 			<div className="partners">
@@ -77,9 +80,11 @@ const Home = () => {
 
 			<Sales />
 
+			<Concert />
 			<MainTitle title="Young’s Favourite" />
 			<TopRated />
 			<MobileApp />
+			<Premium />
 			<ContactSection />
 			<Footer />
 		</div>

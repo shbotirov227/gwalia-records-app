@@ -6,7 +6,7 @@ import {
     News,
     Favourite,
     Singers,
-    Alboms
+    Albums
 } from "./pages";
 
 import "./assets/App.scss";
@@ -20,7 +20,7 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
 
-                    <Route path="/albom" element={<Alboms />} />
+                    <Route path="/album" element={<Albums />} />
                     <Route path="/news" element={<News />} />
                     <Route path="/favourite" element={<Favourite />} />
                     <Route path="/singers" element={<Singers />} />

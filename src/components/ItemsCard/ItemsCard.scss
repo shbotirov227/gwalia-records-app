@@ -1,7 +1,15 @@
 .ItemsCard {
-    width: 485px;
+    width: 285px;
+    height: 550px;
     transition: all ease 0.4s;
     cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
 
     &:hover {
         .ItemsCard-explore svg {
@@ -10,12 +18,13 @@
     }
 
     &-img {
-        width: 485px;
-        height: 700px;
+        width: 285px;
+        height: 300px;
         border-radius: 20px;
     }
 
     &-explore {
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;

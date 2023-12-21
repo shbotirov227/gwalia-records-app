@@ -37,7 +37,7 @@ const data = [
 const Items = () => {
 	return (
 		<div className="Items">
-			<Swiper className="container" spaceBetween={50} slidesPerView={2.4}>
+			<Swiper className="container" spaceBetween={50} slidesPerView={3.4}>
 				{
 					data.map((data, index) => (
 						<SwiperSlide key={index}>

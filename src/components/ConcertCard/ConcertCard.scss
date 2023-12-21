@@ -1,0 +1,51 @@
+.ConcertCard {
+    border: 1px solid #ccc;
+    margin: 20px;
+    width: 80%;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+    &-items {
+        padding: 50px;
+    }
+
+    &-title {
+        width: 60%;
+        font-size: 45px;
+        margin-bottom: 30px;
+    }
+
+    &-cost {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 80px;
+    }
+
+    &-date {
+        
+        font-size: 20px;
+        margin-bottom: 20px 0;
+    }
+
+    &-author {
+        font-size: 25px;
+    }
+
+    &-price {
+        font-size: 40px;
+        color: #8e2305;
+    }
+
+    &-img {
+        width: 60%;
+        height: 520px;
+    }
+}
