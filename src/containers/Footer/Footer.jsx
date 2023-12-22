@@ -16,7 +16,7 @@ const Footer = () => {
 
 				<div className="Footer-left">
 					<img className="Footer-logo" src={Logo} alt="Footer-logo" />
-					<h4 className="Footer-left-text">Complete your style with awesome clothes from us.</h4>
+					<h4 className="Footer-left-text">Find music that suits your taste. The music is from us.</h4>
 
 					<div className="Footer-left-socialMedia">
 						<Link to="https://www.facebook.com" target="_blank" className="Footer-left-icon"><img src={Facebook} alt="" /></Link>
