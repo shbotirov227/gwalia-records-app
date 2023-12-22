@@ -1,5 +1,5 @@
 .Header {
-    position: relative;
+    position: sticky;
     top: 0;
     background-color: #fff;
     z-index: 9;
@@ -12,7 +12,6 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        // padding: 35px 0 !important;
     }
 
     &-links {
@@ -34,6 +33,7 @@
             padding: 55px 45px;
             transition: all ease 0.4s;
             background-image: none;
+            font-weight: 600;
 
             &:hover {
                 background-image: url("../../assets/images/mainTitleIcon.png");
@@ -49,6 +49,166 @@
 
     .logo {
         width: 280px;
-        height: 75px;
+        height: 100%;
+    }
+}
+
+.burgerBtn {
+    display: none;
+}
+
+.closeBtn {
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+.overlay {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.45);
+    border-bottom-left-radius: 20px;
+    transition: all ease 0.4s;
+    width: 30%;
+    overflow: hidden;
+
+    &.active {
+        display: block;
+    }
+
+    &-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btnDefault {
+        padding: 40px 30px;
+        border-radius: 0;
+    }
+
+    .Header-links-link {
+        width: 100%;
+        border-radius: 10px;
+        transition: all ease 0.4s;
+
+        &:hover {
+            background-image: none;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .Header {
+
+        .logo {
+            width: 200px;
+            height: 100%;
+        }
+
+        &-links {
+            &-link {
+                padding: 40px 30px;
+            }
+        }
+
+        .overlay, .burgerBtn {
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .Header {
+        display: flex;
+        align-items: center;
+
+        .logo {
+            width: 200px;
+            height: 100%;
+        }
+
+        &-links {
+            &-link {
+                padding: 40px 30px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    .Header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 25px 0;
+
+        .logo {
+            width: 200px;
+            height: 100%;
+        }
+
+        .overlay.active {
+            display: block;
+            
+        }
+
+        .burgerBtn {
+            width: 30px;
+            height: 30px;
+            padding: 20px;
+        }
+
+        
+
+        &-links {
+            width: 100%;
+            display: none;
+
+            &-link {
+                width: 100%;
+                padding: 40px 30px;
+            }
+
+        }
+
+        .overlay {
+            display: none;
+        }
+
+        .burgerBtn {
+            display: block;
+        }
+        
+        // .overlay {
+        //     width: 30%;
+
+        //     &-link {
+        //         width: 100%;
+        //         border-radius: 10px;
+        //         transition: all ease 0.4s;
+
+        //         &::before {
+        //             content: "";
+        //         }
+        //     }
+
+        //     .btnDefault {
+        //         border-radius: 0;
+        //         padding: 40px 30px;
+        //     }
+
+        //     .closeBtn {
+        //         display: flex;
+        //         align-items: center;
+        //         padding: 20px;
+        //         width: 30px;
+        //         height: 30px;
+        //     }
+        // }
     }
 }

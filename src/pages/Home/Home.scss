@@ -34,7 +34,7 @@
                     width: 465px;
                     height: 115px;
                     position: absolute;
-                    transform: rotate(-2deg);
+                    transform: rotate(-5deg);
                     flex-shrink: 0;
                     background-color: #FFF;
                     z-index: -1;
@@ -54,7 +54,7 @@
                     width: 475px;
                     height: 120px;
                     position: absolute;
-                    transform: rotate(-2deg);
+                    transform: rotate(-3deg);
                     flex-shrink: 0;
                     background-color: #EBD96B;
                     z-index: -1;
@@ -107,4 +107,141 @@
             height: 70px;
         }
     }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+    .Home {
+        &-left {
+            width: 100%;
+        }
+        
+        .heroSection {
+            width: 95%;
+            display: flex;
+            background: #F4F6F5;
+            padding: 50px;
+            height: 750px;
+
+            &-title {
+                font-size: 60px;
+                z-index: 2;
+
+                .bg-white {
+                    z-index: 2;
+                    position: relative;
+    
+                    &::before {
+                        content: "";
+                        width: 320px;
+                        height: 100px;
+                        position: absolute;
+                        transform: rotate(-3deg);
+                        flex-shrink: 0;
+                        background-color: #FFF;
+                        z-index: -1;
+                        left: -30px;
+                        bottom: 0;
+                        top: 0;
+                        margin: auto;
+                    }
+                }
+    
+                .bg-yellow {
+                    z-index: 2;
+                    position: relative;
+    
+                    &::before {
+                        content: "";
+                        width: 330px;
+                        height: 110px;
+                        position: absolute;
+                        transform: rotate(-3deg);
+                        flex-shrink: 0;
+                        background-color: #EBD96B;
+                        z-index: -1;
+                        left: -220px;
+                        bottom: -125px;
+                        top: 0;
+                        margin: auto;
+                    }
+                }
+            }
+            &-img {
+                width: 50% !important;
+                height: 800px !important;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1200px) {
+    .Home {
+        &-left {
+            width: 100%;
+        }
+        
+        .heroSection {
+            width: 95%;
+            display: flex;
+            background: #F4F6F5;
+            padding: 50px;
+            height: 750px;
+
+            &-title {
+                padding-left: 25px;
+                font-size: 55px;
+                z-index: 2;
+
+                .bg-white {
+                    z-index: 2;
+                    position: relative;
+    
+                    &::before {
+                        content: "";
+                        width: 320px;
+                        height: 100px;
+                        position: absolute;
+                        transform: rotate(-3deg);
+                        flex-shrink: 0;
+                        background-color: #FFF;
+                        z-index: -1;
+                        left: -30px;
+                        bottom: 0;
+                        top: 0;
+                        margin: auto;
+                    }
+                }
+    
+                .bg-yellow {
+                    z-index: 2;
+                    position: relative;
+    
+                    &::before {
+                        content: "";
+                        width: 330px;
+                        height: 110px;
+                        position: absolute;
+                        transform: rotate(-3deg);
+                        flex-shrink: 0;
+                        background-color: #EBD96B;
+                        z-index: -1;
+                        left: -220px;
+                        bottom: -125px;
+                        top: 0;
+                        margin: auto;
+                    }
+                }
+            }
+            &-img {
+                width: 50% !important;
+                height: 800px !important;
+            }
+
+        }
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+    
 }

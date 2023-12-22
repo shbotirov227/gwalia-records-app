@@ -31,13 +31,39 @@ const data = [
 		image: DjMusic,
 		title: "The Thrill Is Gone"
 	}
-]
+];
 
 
 const Items = () => {
+
+	// function getWindowSize() {
+	// 	const { innerWidth, innerHeight } = window;
+	// 	return { innerWidth, innerHeight };
+	// }
+
+	// const [windowSize, setWindowSize] = useState(getWindowSize());
+
+	// useEffect(() => {
+	// 	function handleWindowResize() {
+	// 		setWindowSize(getWindowSize());
+	// 	}
+
+	// 	window.addEventListener('resize', handleWindowResize);
+
+	// 	return () => {
+	// 		window.removeEventListener('resize', handleWindowResize);
+	// 	};
+	// }, []);
+
+	// const changeWindowSize = () => {
+	// 	if (windowSize.innerWidth < 1200) {
+	// 		return 2.4
+	// 	}
+	// }
+
 	return (
 		<div className="Items">
-			<Swiper className="container" spaceBetween={50} slidesPerView={3.4}>
+			<Swiper className="container" autoplay={5000} spaceBetween={50} slidesPerView={3.4}>
 				{
 					data.map((data, index) => (
 						<SwiperSlide key={index}>

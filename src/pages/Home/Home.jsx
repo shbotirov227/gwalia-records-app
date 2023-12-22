@@ -8,6 +8,8 @@ import TopRated from "../../containers/TopRated";
 import MobileApp from "../../containers/MobileApp";
 import ContactSection from "../../containers/ContactSection";
 import MainTitle from "../../components/MainTitle";
+import Premium from "../../containers/Premium/Premium";
+import Concert from "../../containers/Concert/Concert";
 
 import { HeroIcon } from "../../assets/icons";
 import HeroImg from "../../assets/images/freePhoto.png";
@@ -23,8 +25,6 @@ import JBL from "../../assets/images/jbl.svg";
 import 'swiper/css';
 
 import "./Home.scss";
-import Premium from "../../containers/Premium/Premium";
-import Concert from "../../containers/Concert/Concert";
 
 
 const data = [
@@ -46,7 +46,7 @@ const Home = () => {
 
 			<div className="heroSection container">
 				<div className="heroSection-left">
-					<h2 className="heroSection-title"><span className="bg-white">Where </span>music <span className="bg-yellow">makes a </span> difference</h2>
+					<h2 className="heroSection-title"><span className="bg-white">Where </span><br></br>music <span className="bg-yellow"><br></br>makes a </span> difference</h2>
 					<p className="heroSection-text">Find Your Perfect Sound</p>
 
 					<div className="heroSection-btnSection">
@@ -55,7 +55,7 @@ const Home = () => {
 					</div>
 				</div>
 
-				<img src={HeroImg} alt="heroImg" />
+				<img className="heroSection-img" src={HeroImg} alt="heroImg" />
 			</div>
 
 			<div className="partners">
@@ -77,9 +77,7 @@ const Home = () => {
 
 			<MainTitle title="NEW HITS" />
 			<Items />
-
 			<Sales />
-
 			<Concert />
 			<MainTitle title="Young’s Favourite" />
 			<TopRated />
